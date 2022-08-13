@@ -18,3 +18,7 @@ body {
 .navbar {
   height: 4rem;
 }
+
+.box {
+  padding-top: 12px;
+}
