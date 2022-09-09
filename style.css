@@ -7,7 +7,6 @@
 html {
   font-size: 1rem;
   overflow-x: hidden;
-  
 }
 
 body {
@@ -44,6 +43,12 @@ ion-icon {
   font-size: 64px;
 }
 .index-icon,
-.hero-card {
+.hero-card,
+.card-icon {
   text-align: center;
+}
+.card {
+  background-color: #ecf0f1;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
