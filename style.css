@@ -27,10 +27,14 @@ body {
 }
 
 .container-fluid {
-  max-width: 800px;
+  max-width: 1200px;
 }
+
 .hero {
-  width: 400px;
+  width: 600px;
 }
- 
- 
+.text-stack{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
