@@ -33,8 +33,11 @@ body {
 .hero {
   width: 600px;
 }
-.text-stack{
+.text-stack {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+ion-icon {
+  font-size: 64px;
 }
