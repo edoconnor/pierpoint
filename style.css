@@ -32,12 +32,13 @@ body {
 }
 
 .hero {
-  width: 500px;
+  max-width: 500px;
 }
 .text-stack {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 ion-icon {
   font-size: 64px;
@@ -54,7 +55,7 @@ ion-icon {
 }
 @media (max-width: 34em) {
   .hero {
-    h1: 0.70rem;
+    font-size: 0.8rem;
     width: 100vw;
   }
 }
