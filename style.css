@@ -32,7 +32,7 @@ body {
 }
 
 .hero {
-  width: 600px;
+  width: 500px;
 }
 .text-stack {
   display: flex;
@@ -51,4 +51,7 @@ ion-icon {
   background-color: #ecf0f1;
   margin-right: 1rem;
   margin-top: 1rem;
+}
+@media (max-width: 34em) {
+  font-size: 0.75rem;
 }
