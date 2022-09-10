@@ -54,7 +54,7 @@ ion-icon {
 }
 @media (max-width: 34em) {
   .hero {
-    font-size: 0.75rem;
+    h1: 0.70rem;
     width: 100vw;
   }
 }
