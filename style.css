@@ -50,7 +50,8 @@ ion-icon {
 }
 .card {
   background-color: #ecf0f1;
-  margin-right: 2rem;
-  margin-top: 0.5rem;
-  border: 3px dashed #2c3e50;
+  border: none;
+}
+.box-area {
+  align-items: center;
 }
