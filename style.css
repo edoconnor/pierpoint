@@ -23,12 +23,12 @@ body {
 .hero,
 .footer {
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container-fluid {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .hero {
@@ -50,12 +50,7 @@ ion-icon {
 }
 .card {
   background-color: #ecf0f1;
-  margin-right: 1rem;
-  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  border: 3px dashed #2c3e50;
 }
-/* @media (max-width: 34em) {
-  .hero {
-    font-size: 0.8rem;
-    width: 100vw;
-  }
-} */
