@@ -53,9 +53,9 @@ ion-icon {
   margin-right: 1rem;
   margin-top: 1rem;
 }
-@media (max-width: 34em) {
+/* @media (max-width: 34em) {
   .hero {
     font-size: 0.8rem;
     width: 100vw;
   }
-}
+} */
