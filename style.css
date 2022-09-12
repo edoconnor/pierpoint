@@ -17,7 +17,7 @@ body {
   color: #2c3e50;
 }
 .navbar {
-  height: 4rem;
+  height: 3rem;
 }
 
 .hero,
@@ -56,3 +56,4 @@ ion-icon {
 .box-area {
   align-items: center;
 }
+
