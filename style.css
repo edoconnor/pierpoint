@@ -51,9 +51,22 @@ ion-icon {
 .card {
   background-color: #ecf0f1;
   border: none;
- margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 .box-area {
   align-items: center;
 }
-
+.index-card {
+  position: relative;
+  display: inline-block;
+}
+.index-card .hidden {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.index-card:hover .hidden {
+  display: inline;
+}
