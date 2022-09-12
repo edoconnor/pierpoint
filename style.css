@@ -70,3 +70,14 @@ ion-icon {
 .index-card:hover .hidden {
   display: inline;
 }
+.test-body {
+  height: 100vh;
+  background: url(runners.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a {
+  color: blue;
+}
