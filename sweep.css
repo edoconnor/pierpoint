@@ -19,7 +19,7 @@
   background: var(--surface-2);
   border-radius: var(--radius-2);
   box-shadow: var(--shadow-3);
-  height: 300px;
+  height: auto;
 }
 .media-element > img {
   inline-size: 100%;
