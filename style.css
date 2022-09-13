@@ -5,12 +5,26 @@
 }
 
 html {
-  font-size: 1rem;
   overflow-x: hidden;
+}
+h1 {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+}
+h3 {
+  font-size: 1.75sem; /* 30px/16=1.875em */
+}
+
+p {
+  font-size: 0.875em; /* 14px/16=0.875em */
 }
 
 body {
   background-color: #ecf0f1;
+  font-family: "Roboto Mono", monospace;
 }
 
 .navbar {
@@ -94,4 +108,8 @@ a {
 .navbar-nav {
   display: flex;
   flex-direction: row;
+}
+.animate__animated.animate__flash {
+  --animate-duration: 1.5s;
+  --animate-delay: 2s;
 }
