@@ -7,19 +7,11 @@
 html {
   overflow-x: hidden;
 }
-h1 {
-  font-size: 2.5em; /* 40px/16=2.5em */
-}
-
-h2 {
-  font-size: 1.875em; /* 30px/16=1.875em */
-}
-h3 {
-  font-size: 1.75sem; /* 30px/16=1.875em */
-}
-
 p {
-  font-size: 0.875em; /* 14px/16=0.875em */
+  font-size: 0.75rem;
+}
+h1 {
+  font-size: 2rem;
 }
 
 body {
@@ -52,7 +44,7 @@ body {
   padding-bottom: 1rem;
 }
 ion-icon {
-  font-size: 64px;
+  font-size: 48px;
 }
 .index-icon,
 .hero-card,
