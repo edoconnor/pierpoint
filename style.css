@@ -75,18 +75,23 @@ ion-icon {
   -o-background-size: cover;
   background-size: cover;
 }
- 
+
 a {
   color: blue;
 }
 
 .vert-center-text {
-  position: absolute; 
-  top: 40%; 
+  position: absolute;
+  top: 40%;
   left: 0;
-  text-align: center; 
-  width: 100%; 
+  text-align: center;
+  width: 100%;
 }
-.vert-center-text h1 { 
+.vert-center-text h1 {
   color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
 }
