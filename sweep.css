@@ -11,12 +11,14 @@ body {
 
 .gallery {
   background: #eee;
+  max-width: 900px;
 }
 
 .gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
+  width: 45%;
+  height: 400px;
+  margin-right: 20px;
+  margin-top: 20px;;
   background: #8c8;
   counter-increment: gallery-cell;
 }
@@ -26,7 +28,7 @@ body {
   display: block;
   text-align: center;
   content: counter(gallery-cell);
-  line-height: 200px;
+  line-height: 400px;
   font-size: 80px;
   color: white;
 }
