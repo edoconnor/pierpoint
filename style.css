@@ -11,7 +11,8 @@ p {
   font-size: 0.8rem;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
+  font-family: "Roboto Mono", monospace;
 }
 
 body {
@@ -40,7 +41,7 @@ body {
   margin-bottom: 3rem;
 }
 .form-control {
-  margin-left: -.5rem;
+  margin-left: -0.5rem;
 }
 
 .hero {
@@ -84,18 +85,6 @@ ion-icon {
 .index-card:hover .hidden {
   display: inline;
 }
-.test-body {
-  height: 100vh;
-  background: url(runners.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-a {
-  color: blue;
-}
 
 .vert-center-text {
   position: absolute;
@@ -125,9 +114,7 @@ a.navbar-brand:hover {
   --animate-duration: 1.5s;
   --animate-delay: 2s;
 }
-mark {
-  background-color: yellow;
-}
+
 .navbar-title {
   padding-right: 1rem;
 }
@@ -213,4 +200,46 @@ mark {
 }
 .submit-button-wrapper {
   margin-top: 2rem;
+}
+.slider {
+  background: #e67e22;
+  position: fixed;
+  top: 100;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  margin-top: 1rem;
+}
+.intro {
+  background: #222f3e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-text {
+  color: #ecf0f1;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: #222f3e;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+.navbar {
+  background-color: #222f3e;
+}
+.navbar-brand {
+  color: #ffffff;
 }
