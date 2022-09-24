@@ -20,11 +20,6 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
-.navbar {
-  height: 3rem;
-}
-
-.hero,
 .footer {
   padding-top: 20px;
   padding-left: 10px;
@@ -44,33 +39,6 @@ body {
   margin-left: -0.5rem;
 }
 
-.hero {
-  max-width: 500px;
-}
-.text-stack {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 1rem;
-}
-ion-icon {
-  font-size: 48px;
-  color: white;
-}
-
-.index-icon,
-.hero-card,
-.card-icon {
-  text-align: center;
-}
-.card {
-  background-color: #ecf0f1;
-  border: none;
-  margin-bottom: 3rem;
-}
-.box-area {
-  align-items: center;
-}
 .index-card {
   position: relative;
   display: inline-block;
@@ -86,18 +54,12 @@ ion-icon {
   display: inline;
 }
 
-.vert-center-text {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-.vert-center-text h1 {
-  color: white;
-}
-ion-icon {
-  font-size: 1.5rem;
+/* =================================== */
+/* NAVBAR */
+/* =================================== */
+.navbar {
+  /* background-color: #222f3e; */
+  height: 3.5rem;
 }
 .navbar-nav {
   display: flex;
@@ -109,19 +71,22 @@ ion-icon {
 a.navbar-brand:hover {
   color: #e67e22;
 }
-
-.animate__animated.animate__flash {
-  --animate-duration: 1.5s;
-  --animate-delay: 2s;
-}
-
 .navbar-title {
   padding-right: 1rem;
 }
+.navbar-brand {
+  color: #ffffff;
+}
+ion-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+/* =================================== */
+/* CONTACT PAGE */
+/* =================================== */
 .contact-form-wrapper {
   padding: 100px 0;
 }
-
 .contact-form {
   padding: 30px 40px;
   background-color: #ffffff;
@@ -201,6 +166,9 @@ a.navbar-brand:hover {
 .submit-button-wrapper {
   margin-top: 2rem;
 }
+/* =================================== */
+/* PAGE LOAD ANIMATION */
+/* =================================== */
 .slider {
   background: #e67e22;
   position: fixed;
@@ -237,9 +205,4 @@ a.navbar-brand:hover {
   transform: translateY(100%);
   display: inline-block;
 }
-.navbar {
-  background-color: #222f3e;
-}
-.navbar-brand {
-  color: #ffffff;
-}
+/* =================================== */
