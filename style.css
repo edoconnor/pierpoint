@@ -207,3 +207,10 @@ ion-icon {
   display: inline-block;
 }
 /* =================================== */
+@media (max-width: 44em) {
+  .intro-text > h1 {
+    font-size: 3rem;
+    padding-left: 3rem;
+    /* padding-left: 1rem; */
+  }
+}
