@@ -194,6 +194,7 @@ ion-icon {
   color: #ecf0f1;
   font-family: "Roboto Mono", sans-serif;
   font-size: 3rem;
+  max-width: 600px;
 }
 
 .hide {
