@@ -207,4 +207,10 @@ ion-icon {
     padding-left: 3rem;
     /* padding-left: 1rem; */
   }
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+  .container-contact {
+    margin-top: 3rem;
+  }
 }
