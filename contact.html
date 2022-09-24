@@ -14,9 +14,9 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@5000
-      &display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@5000
+    &display=swap"
+    rel="stylesheet"
     />
     <link href="style.css" rel="stylesheet" />
     <title>o'connor | web dev</title>
@@ -24,37 +24,52 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a href="https://www.oconnor.app/" class="navbar-brand">oconnor.app</a>
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <!-- <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">Services</a>
-            <a href="#" class="nav-item nav-link">About</a>
-            <a href="#" class="nav-item nav-link">Contact</a>
-          </div> -->
-          <div class="navbar-nav ms-auto">
-            <a href="https://github.com/edoconnor" class="nav-link"
-              ><ion-icon name="logo-github"></ion-icon
-            ></a>
-            <a href="https://www.linkedin.com/in/etoconnor" class="nav-link"
-              ><ion-icon name="logo-linkedin"></ion-icon
-            ></a>
+        <div class="d-flex flex-grow-1">
+          <span class="w-100 d-lg-none d-block">
+            <!-- hidden spacer to center brand on mobile --></span
+            >
+            <a class="navbar-brand" href="/">ed.oconnor</a>
+            <div class="w-100 text-right">
+              <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#show"
+              >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </div>
-      </div>
-    </nav>
-    <div class="container-contact mx-auto">
-      <div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="show">
+          <ul class="navbar-nav ms-auto flex-nowrap">
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link"
+              ><ion-icon name="mail-outline"></ion-icon
+                ></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/edoconnor" class="nav-link"
+              ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/etoconnor" class="nav-link"
+                ><ion-icon name="logo-linkedin"></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div>
+        <div class="container-contact mx-auto">
         <div class="contact-form-wrapper d-flex justify-content-center">
-            <form name="contact" method="POST" data-netlify="true" class="contact-form">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            class="contact-form"
+          >
             <h5 class="title">Contact Form</h5>
 
             <div>
