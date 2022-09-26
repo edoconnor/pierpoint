@@ -10,9 +10,11 @@ html {
 p {
   font-size: 0.8rem;
 }
+
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Roboto Mono", monospace;
+  color: white;
 }
 
 body {
@@ -27,8 +29,13 @@ body {
 }
 
 .container {
+  margin-top: 3rem;
   max-width: 1000px;
   width: 100vw;
+}
+.index-header > h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .container-contact {
   max-width: 600px;
