@@ -1,8 +1,7 @@
 .container {
-  max-width: 80vw;
+  max-width: 95vw;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2rem;
 }
 .chartBox {
   margin-top: 2rem;
@@ -20,10 +19,15 @@ nav {
   padding-right: 2rem;
 }
 h2 {
-  font-size: 1.25rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
   vertical-align: baseline;
-  color: white;
+  color: #2d3436;
 }
 .navbar-toggler {
   color: white;
+}
+#page-title {
+  text-align: center;
+  padding-top: 0.75rem;
 }
