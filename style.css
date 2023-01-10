@@ -24,7 +24,12 @@ h2 {
   vertical-align: baseline;
   color: #2d3436;
 }
-
+@media (max-width: 28.9em) {
+  h2 {
+    font-size: 1.5rem;
+    color: red;
+  }
+}
 .navbar-toggler {
   color: white;
 }
