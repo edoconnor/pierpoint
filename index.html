@@ -4,169 +4,216 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@5000
-      &display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="style.css" rel="stylesheet" />
-    <title>o'connor | web dev</title>
+    <title>Document</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <div class="d-flex flex-grow-1">
-          <span class="w-100 d-lg-none d-block">
-            <!-- hidden spacer to center brand on mobile --></span
-          >
-          <a class="navbar-brand" href="/">ed.oconnor</a>
-          <div class="w-100 text-right">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#show"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="show">
-          <ul class="navbar-nav ms-auto flex-nowrap">
-            <li class="nav-item">
-              <a href="/contact.html" class="nav-link"
-                ><ion-icon name="mail-outline"></ion-icon
+  <body onload="fetchData()">
+    <nav class="navbar navbar-dark navbar-expand-sm">
+      <a href="#" class="navbar-brand">ed.oconnor</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuItems"
+        aria-controls="menuItems"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuItems">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="mailto:ed@oconnor.app" class="nav-link"><i class="bi bi-envelope"></i
               ></a>
-            </li>
-            <li class="nav-item">
-              <a href="https://github.com/edoconnor" class="nav-link"
-                ><ion-icon name="logo-github"></ion-icon
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/etoconnor/" class="nav-link"><i class="bi bi-linkedin"></i
               ></a>
-            </li>
-            <li class="nav-item">
-              <a href="https://www.linkedin.com/in/etoconnor" class="nav-link"
-                ><ion-icon name="logo-linkedin"></ion-icon
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/edoconnor" class="nav-link"><i class="bi bi-github"></i
               ></a>
-            </li>
-          </ul>
-        </div>
+          </li>
+        </ul>
       </div>
     </nav>
+
     <div class="container">
-      <!-- <div class="index-header d-flex justify-content-center mt-3">
-        <h1>Design + Code</h1>
-      </div> -->
       <div class="row">
-        <div class="box col-12 col-sm-6 col-lg-4">
-          <div class="index-card mt-3">
-            <img class="img-fluid" src="501.png" alt="Responsive image" />
-            <img
-              class="hidden img-fluid"
-              src="502.png"
-              alt="Responsive image"
-            />
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="mmm_chart"></canvas>
           </div>
         </div>
-        <div class="box col-12 col-sm-6 col-lg-4">
-          <div class="index-card mt-3">
-            <img class="img-fluid" src="501.png" alt="Responsive image" />
-            <img
-              class="hidden img-fluid"
-              src="502.png"
-              alt="Responsive image"
-            />
-            <div class="index-card-body"></div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="axp_chart"></canvas>
           </div>
         </div>
-        <div class="box col-12 col-sm-6 col-lg-4">
-          <div class="index-card mt-3">
-            <img class="img-fluid" src="501.png" alt="Responsive image" />
-            <img
-              class="hidden img-fluid"
-              src="502.png"
-              alt="Responsive image"
-            />
-            <div class="index-card-body"></div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="amgn_chart"></canvas>
           </div>
         </div>
-        <div class="box col-12 col-sm-6 col-lg-4">
-          <div class="index-card mt-3">
-            <img class="img-fluid" src="501.png" alt="Responsive image" />
-            <img
-              class="hidden img-fluid"
-              src="502.png"
-              alt="Responsive image"
-            />
-            <div class="index-card-body"></div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="aapl_chart"></canvas>
           </div>
         </div>
-        <div class="box col-12 col-sm-6 col-lg-4">
-          <div class="index-card mt-3">
-            <img class="img-fluid" src="501.png" alt="Responsive image" />
-            <img
-              class="hidden img-fluid"
-              src="502.png"
-              alt="Responsive image"
-            />
-            <div class="index-card-body"></div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="ba_chart"></canvas>
           </div>
         </div>
-        <div class="box col-12 col-sm-6 col-lg-4">
-          <div class="index-card mt-3">
-            <img class="img-fluid" src="501.png" alt="Responsive image" />
-            <img
-              class="hidden img-fluid"
-              src="502.png"
-              alt="Responsive image"
-            />
-            <div class="index-card-body"></div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="cat_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="cvx_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="csco_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="ko_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="dis_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="dow_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="gs_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="hd_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="hon_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="ibm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="intc_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="jnj_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="jpm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="mcd_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="mrk_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="msft_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="nke_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="pg_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="crm_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="trv_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="unh_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="vz_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="v_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="wba_chart"></canvas>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="chartBox">
+            <canvas id="wmt_chart"></canvas>
           </div>
         </div>
       </div>
-      <hr />
-      <footer>
-        <div class="row">
-          <div class="col-md-6">
-            <p>© 2022</p>
-          </div>
-          <div class="col-md-6 text-md-end">
-            <p>Built in Boston, MA 🦞</p>
-          </div>
-        </div>
-      </footer>
-      <div class="intro">
-        <div class="intro-text">
-          <h1 class="hide">
-            <span class="text">Creating Innovation</span>
-          </h1>
-          <h1 class="hide">
-            <span class="text">for the Fintech</span>
-          </h1>
-          <h1 class="hide">
-            <span class="text">Industry 🚀</span>
-          </h1>
-        </div>
-      </div>
-      <div class="slider"></div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
+
     <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
   </body>

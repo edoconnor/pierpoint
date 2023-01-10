@@ -1,226 +1,29 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  overflow-x: hidden;
-}
-p {
-  font-size: 0.8rem;
-}
-
-h1 {
-  font-size: 4rem;
-  font-family: "Roboto Mono", monospace;
-  color: white;
-}
-
-body {
-  background-color: #ecf0f1;
-  font-family: "Roboto Mono", monospace;
-}
-
-.footer {
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .container {
-  margin-top: 3rem;
-  max-width: 1000px;
-  width: 100vw;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
 }
-.index-header > h1 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.container-contact {
-  max-width: 600px;
-  margin-top: 3rem;
-}
-.contact-header {
-  margin-bottom: 3rem;
-}
-.form-control {
-  margin-left: -0.5rem;
-}
-
-.index-card {
-  position: relative;
-  display: inline-block;
-}
-.index-card .hidden {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.index-card:hover .hidden {
-  display: inline;
-}
-
-/* =================================== */
-/* NAVBAR */
-/* =================================== */
-
-.nav-link > ion-icon:hover {
-  color: #e67e22;
-}
-
-a.navbar-brand:hover {
-  color: #e67e22;
-}
-.navbar-title {
-  padding-right: 1rem;
-}
-.navbar-brand {
-  color: #ffffff;
-}
-ion-icon {
-  font-size: 1.5rem;
-  color: white;
-}
-*/
-/* =================================== */
-/* CONTACT PAGE */
-/* =================================== */
-.contact-form-wrapper {
-  padding: 100px 0;
-}
-.contact-form {
-  padding: 30px 40px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  max-width: 400px;
-}
-
-.contact-form textarea {
-  resize: none;
-}
-
-.contact-form .form-input,
-.form-text-area {
-  background-color: #f0f4f5;
-  height: 50px;
-  padding-left: 16px;
-}
-
-.contact-form .form-text-area {
-  background-color: #f0f4f5;
-  height: auto;
-  padding-left: 16px;
-}
-
-.contact-form .form-control::placeholder {
-  color: #aeb4b9;
-  font-weight: 500;
-  opacity: 1;
-}
-
-.contact-form .form-control:-ms-input-placeholder {
-  color: #aeb4b9;
-  font-weight: 500;
-}
-
-.contact-form .form-control::-ms-input-placeholder {
-  color: #aeb4b9;
-  font-weight: 500;
-}
-
-.contact-form .form-control:focus {
-  border-color: #e67e22;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #e67e22;
-}
-
-.contact-form .title {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 2rem;
-}
-
-.contact-form .description {
-  color: #aeb4b9;
-  font-size: 14px;
-  text-align: center;
-}
-
-.contact-form .submit-button-wrapper {
-  text-align: center;
-}
-
-.contact-form .submit-button-wrapper input {
-  border: none;
-  border-radius: 4px;
-  background-color: #e67e22;
-  color: white;
-  text-transform: uppercase;
-  padding: 10px 60px;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-
-.contact-form .submit-button-wrapper input:hover {
-  background-color: #e67e22;
-}
-.submit-button-wrapper {
+.chartBox {
   margin-top: 2rem;
 }
-/* =================================== */
-/* PAGE LOAD ANIMATION */
-/* =================================== */
-.slider {
-  background: #e67e22;
-  position: fixed;
-  top: 100;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  margin-top: 1rem;
+.bi {
+  font-size: 1.25rem;
+  color: white;
+  padding-left: 0.5rem;
 }
-.intro {
-  background: #222f3e;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav {
+  background-color: #34495e;
 }
-.intro-text {
-  color: #ecf0f1;
-  font-family: "Roboto Mono", sans-serif;
-  font-size: 3rem;
-  max-width: 600px;
+.navbar {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-
-.hide {
-  background: #222f3e;
-  overflow: hidden;
+h2 {
+  font-size: 1.25rem;
+  vertical-align: baseline;
+  color: white;
 }
-
-.hide span {
-  transform: translateY(100%);
-  display: inline-block;
-}
-/* =================================== */
-@media (max-width: 44em) {
-  .intro-text > h1 {
-    font-size: 3rem;
-    padding-left: 3rem;
-    /* padding-left: 1rem; */
-  }
-  .navbar-brand {
-    margin-right: 2rem;
-  }
-  .container-contact {
-    margin-top: 3rem;
-  }
+.navbar-toggler {
+  color: white;
 }
