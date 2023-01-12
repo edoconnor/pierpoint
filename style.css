@@ -9,7 +9,8 @@
 .bi {
   font-size: 1.25rem;
   color: white;
-  padding-left: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 1rem;
 }
 nav {
   background-color: #34495e;
