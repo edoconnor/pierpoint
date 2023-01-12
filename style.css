@@ -18,15 +18,22 @@ nav {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.nav-h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  vertical-align: baseline;
+  color: white;
+}
+
 h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 2rem;
   vertical-align: baseline;
-  color: #2d3436;
+  color: black;
 }
 @media (max-width: 28.9em) {
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .chartBox {
     margin-top: 1rem;
