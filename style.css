@@ -10,7 +10,7 @@
   font-size: 1.25rem;
   color: white;
   padding-left: 0.25rem;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 }
 nav {
   background-color: #34495e;
@@ -24,7 +24,7 @@ nav {
   font-size: 1.5rem;
   color: white;
   vertical-align: auto;
-  padding-top: 0.2rem;
+  padding-top: 0.25rem;
 }
 
 h2 {
@@ -39,6 +39,9 @@ h2 {
   }
   .chartBox {
     margin-top: 1rem;
+  }
+  .bi {
+    padding-right: 1rem;
   }
 }
 .navbar-toggler {
