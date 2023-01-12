@@ -34,7 +34,7 @@ h2 {
 }
 @media (max-width: 28.9em) {
   h2 {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
   .chartBox {
     margin-top: 1rem;
