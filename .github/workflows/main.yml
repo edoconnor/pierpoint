@@ -2,7 +2,7 @@ name: refresh data
 
 on:
   schedule:
-    - cron: "40 16 * * 1-5"    
+    - cron: "0 17 * * 1-5"    
 
 jobs:
   getdataandrefreshmap:
@@ -14,12 +14,18 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.10 #install the python needed
-      - name: Install dependencies
+          
+      - name: install packages
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
       - name: execute py script
         run: |
           python api.py
+      
+      - name: COMMIT FILES
+        run: |     
           git config user.name edoconnor
           git config user.email ed@oconnor.app
           git add .
