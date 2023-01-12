@@ -57,5 +57,5 @@ def csv_to_json(csvFilePath, jsonFilePath):
 
 
 csvFilePath = r'dow.csv'
-jsonFilePath = r'.app/dow.json'
+jsonFilePath = r'dow.json'
 csv_to_json(csvFilePath, jsonFilePath)
