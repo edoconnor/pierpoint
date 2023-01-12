@@ -3,65 +3,64 @@ import pandas as pd
 import csv
 import json
 
-def main():
 
-           endpoint = 'https://www.alphavantage.co/query'
-           api_key = 'I82VVC08EZRB9A68'
+def api_call():
 
-           symbols = ['MMM', 'AXP', 'AMGN', 'AAPL', 'BA', 'CAT', 'CVX', 'CSCO', 'KO',
-           'DIS', 'DOW', 'GS', 'HD', 'HON', 'IBM', 'INTC', 'JNJ', 'JPM',
-           'MCD', 'MRK', 'MSFT', 'NKE', 'PG', 'CRM', 'TRV', 'UNH', 'VZ',
-           'V', 'WBA', 'WMT']
+    endpoint = 'https://www.alphavantage.co/query'
+    api_key = 'I82VVC08EZRB9A68'
 
-           results = []
+    symbols = ['MMM', 'AXP', 'AMGN', 'AAPL', 'BA', 'CAT', 'CVX', 'CSCO', 'KO',
+               'DIS', 'DOW', 'GS', 'HD', 'HON', 'IBM', 'INTC', 'JNJ', 'JPM',
+               'MCD', 'MRK', 'MSFT', 'NKE', 'PG', 'CRM', 'TRV', 'UNH', 'VZ',
+               'V', 'WBA', 'WMT']
 
-           for symbol in symbols:
-           params = {
-           'function': 'TIME_SERIES_DAILY_ADJUSTED',S
-           'symbol': symbol,
-           'apikey': api_key
-           }
-           response = requests.get(endpoint, params=params)
+    results = []
 
-           data = response.json()
+    for symbol in symbols:
+        params = {
+            'function': 'TIME_SERIES_DAILY_ADJUSTED',
+            'symbol': symbol,
+            'apikey': api_key
+        }
+        response = requests.get(endpoint, params=params)
 
-           daily_data = data['Time Series (Daily)']
+        data = response.json()
 
-           for date, daily_data in list(daily_data.items())[:5]:
-           close = daily_data['4. close']
-           results.append({'symbol': symbol, 'date': date, 'close': close})
+        daily_data = data['Time Series (Daily)']
 
+    for date, daily_data in list(daily_data.items())[:5]:
+        close = daily_data['4. close']
+        results.append({'symbol': symbol, 'date': date, 'close': close})
 
-           df = pd.DataFrame(results)
+    df = pd.DataFrame(results)
 
-           df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d')
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d')
 
-           df.to_csv('dow.csv', index=False)
+    df.to_csv('dow.csv', index=False)
 
+    def csv_to_json(csvFilePath, jsonFilePath):
 
-           def csv_to_json(csvFilePath, jsonFilePath):
-           jsonArray = []
+        jsonArray = []
 
-           # read csv file
-           with open(csvFilePath, encoding='utf-8') as csvf:
-           # load csv file data using csv library's dictionary reader
-           csvReader = csv.DictReader(csvf)
+    # read csv file
+    with open(csvFilePath, encoding='utf-8') as csvf:
+        # load csv file data using csv library's dictionary reader
+        csvReader = csv.DictReader(csvf)
 
-           # convert each csv row into python dict
-           for row in csvReader:
+        # convert each csv row into python dict
+        for row in csvReader:
             # add this python dict to json array
             jsonArray.append(row)
 
-           # convert python jsonArray to JSON String and write to file
-           with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
-           jsonString = json.dumps(jsonArray, indent=4)
-           jsonf.write(jsonString)
+    # convert python jsonArray to JSON String and write to file
+    with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
+        jsonString = json.dumps(jsonArray, indent=4)
+        jsonf.write(jsonString)
+
+        csvFilePath = r'dow.csv'
+        jsonFilePath = r'dow.json'
+        csv_to_json(csvFilePath, jsonFilePath)
 
 
-           csvFilePath = r'dow.csv'
-           jsonFilePath = r'dow.json'
-           csv_to_json(csvFilePath, jsonFilePath)
-           
- If __name__ == '__main__':
-       main()    
-           
+if __name__ == '__main__':
+    api_call()        
