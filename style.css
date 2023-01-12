@@ -21,8 +21,9 @@ nav {
 .nav-h2 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
-  vertical-align: baseline;
   color: white;
+  vertical-align: auto;
+  padding-top: 0.2rem;
 }
 
 h2 {
@@ -33,7 +34,7 @@ h2 {
 }
 @media (max-width: 28.9em) {
   h2 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .chartBox {
     margin-top: 1rem;
