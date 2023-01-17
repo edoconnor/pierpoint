@@ -4,7 +4,6 @@ import csv
 import json
 
 endpoint = 'https://www.alphavantage.co/query'
-api_key = 'I82VVC08EZRB9A68'
 
 symbols = ['MMM', 'AXP', 'AMGN', 'AAPL', 'BA', 'CAT', 'CVX', 'CSCO', 'KO',
            'DIS', 'DOW', 'GS', 'HD', 'HON', 'IBM', 'INTC', 'JNJ', 'JPM',
