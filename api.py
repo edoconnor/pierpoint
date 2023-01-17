@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import csv
 import json
+import creds
 
 endpoint = 'https://www.alphavantage.co/query'
 
@@ -16,7 +17,7 @@ for symbol in symbols:
     params = {
         'function': 'TIME_SERIES_DAILY_ADJUSTED',
         'symbol': symbol,
-        'apikey': api_key
+        'apikey': creds.api_key
     }
 
     response = requests.get(endpoint, params=params)
@@ -40,7 +41,6 @@ def csv_to_json(csvFilePath, jsonFilePath):
 
     jsonArray = []
 
-
     with open(csvFilePath, encoding='utf-8') as csvf:
 
         csvReader = csv.DictReader(csvf)
@@ -52,6 +52,7 @@ def csv_to_json(csvFilePath, jsonFilePath):
     with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
         jsonString = json.dumps(jsonArray, indent=4)
         jsonf.write(jsonString)
+
 
 csvFilePath = r'dow.csv'
 jsonFilePath = r'dow.json'
