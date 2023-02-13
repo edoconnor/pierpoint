@@ -6,32 +6,8 @@
 .chartBox {
   margin-top: 2rem;
 }
-.bi {
-  font-size: 1.25rem;
-  color: white;
-  padding-left: 0.25rem;
-  padding-right: 0.5rem;
-}
 nav {
   background-color: #34495e;
-}
-.navbar {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.nav-h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  vertical-align: auto;
-  padding-top: 0.25rem;
-}
-
-h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 2rem;
-  vertical-align: baseline;
-  color: black;
 }
 @media (max-width: 28.9em) {
   h2 {
@@ -47,7 +23,9 @@ h2 {
 .navbar-toggler {
   color: white;
 }
-#page-title {
+.title {
+  font-family: 'Merriweather', serif;
+  color: white;
   text-align: center;
-  padding-top: 0.75rem;
+  padding-top: 0.25rem;
 }

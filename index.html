@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -31,48 +31,10 @@
     <title>oconnor | dev</title>
   </head>
   <body onload="fetchData()">
-    <nav class="navbar navbar-dark navbar-expand-sm">
-      <div class="nav-title">
-        <a href="/" class="navbar-brand"
-          ><h2 class="nav-h2">oconnor | dev</h2></a
-        >
-      </div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#menuItems"
-        aria-controls="menuItems"
-        aria-expanded="false"
-        aria-label="Toggle Navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="menuItems">
-        <ul class="navbar-nav flex-row ml-auto">
-          <li class="nav-item">
-            <a href="mailto:ed@oconnor.app" class="nav-link"
-              ><i class="bi bi-envelope"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.linkedin.com/in/etoconnor/" class="nav-link"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/edoconnor" class="nav-link"
-              ><i class="bi bi-github"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar sticky-top navbar-light justify-content-center">
+      <a><h2 class="title mx-auto">Pierpoint & Co.</h2></a>
     </nav>
-
     <div class="container">
-      <div class="page-title">
-        <h2 id="page-title">DJIA Components - Last 5 Days</h2>
-      </div>
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="chartBox">
