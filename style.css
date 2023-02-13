@@ -10,7 +10,7 @@ nav {
   background-color: #34495e;
 }
 @media (max-width: 28.9em) {
-  h2 {
+  h1 {
     font-size: 1.25rem;
   }
   .chartBox {
