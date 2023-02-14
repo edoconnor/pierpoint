@@ -1,5 +1,5 @@
 # Dow 30 Chart App built with Chart.js
 
-![My Image 2](pierpoint-app.png)
+![Pierpoint App Screenshot](pierpoint-app.png)
 
-
+View deployed app: [https://pierpoint.netlify.app/](https://pierpoint.netlify.app/).
