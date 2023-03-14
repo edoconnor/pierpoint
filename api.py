@@ -3,6 +3,7 @@ import pandas as pd
 import csv
 import json
 import creds
+import time
 
 endpoint = 'https://www.alphavantage.co/query'
 
@@ -13,22 +14,25 @@ symbols = ['MMM', 'AXP', 'AMGN', 'AAPL', 'BA', 'CAT', 'CVX', 'CSCO', 'KO',
 
 results = []
 
-for symbol in symbols:
-    params = {
-        'function': 'TIME_SERIES_DAILY_ADJUSTED',
-        'symbol': symbol,
-        'apikey': creds.api_key
-    }
+for i in range(0, len(symbols), 5):
+    symbols_batch = symbols[i:i+5]
+    for symbol in symbols_batch:
+        params = {
+            'function': 'TIME_SERIES_DAILY_ADJUSTED',
+            'symbol': symbol,
+            'apikey': creds.api_key
+        }
 
-    response = requests.get(endpoint, params=params)
+        response = requests.get(endpoint, params=params)
 
-    data = response.json()
+        data = response.json()
 
-    daily_data = data['Time Series (Daily)']
+        daily_data = data['Time Series (Daily)']
 
-    for date, daily_data in list(daily_data.items())[:5]:
-        close = daily_data['4. close']
-        results.append({'symbol': symbol, 'date': date, 'close': close})
+        for date, daily_data in list(daily_data.items())[:5]:
+            close = daily_data['4. close']
+            results.append({'symbol': symbol, 'date': date, 'close': close})
+    time.sleep(60)
 
 df = pd.DataFrame(results)
 
