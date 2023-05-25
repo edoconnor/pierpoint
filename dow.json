@@ -1,6 +1,11 @@
 [
     {
         "symbol": "MMM",
+        "date": "05/25",
+        "close": "97.05"
+    },
+    {
+        "symbol": "MMM",
         "date": "05/24",
         "close": "96.99"
     },
@@ -20,9 +25,9 @@
         "close": "99.03"
     },
     {
-        "symbol": "MMM",
-        "date": "05/18",
-        "close": "99.64"
+        "symbol": "AXP",
+        "date": "05/25",
+        "close": "151.08"
     },
     {
         "symbol": "AXP",
@@ -45,9 +50,9 @@
         "close": "152.95"
     },
     {
-        "symbol": "AXP",
-        "date": "05/18",
-        "close": "153.48"
+        "symbol": "AMGN",
+        "date": "05/25",
+        "close": "217.46"
     },
     {
         "symbol": "AMGN",
@@ -70,9 +75,9 @@
         "close": "223.42"
     },
     {
-        "symbol": "AMGN",
-        "date": "05/18",
-        "close": "224.23"
+        "symbol": "AAPL",
+        "date": "05/25",
+        "close": "172.99"
     },
     {
         "symbol": "AAPL",
@@ -95,9 +100,9 @@
         "close": "175.16"
     },
     {
-        "symbol": "AAPL",
-        "date": "05/18",
-        "close": "175.05"
+        "symbol": "BA",
+        "date": "05/25",
+        "close": "200.87"
     },
     {
         "symbol": "BA",
@@ -120,9 +125,9 @@
         "close": "205.49"
     },
     {
-        "symbol": "BA",
-        "date": "05/18",
-        "close": "207.24"
+        "symbol": "CAT",
+        "date": "05/25",
+        "close": "209.98"
     },
     {
         "symbol": "CAT",
@@ -145,9 +150,9 @@
         "close": "214.78"
     },
     {
-        "symbol": "CAT",
-        "date": "05/18",
-        "close": "214.72"
+        "symbol": "CVX",
+        "date": "05/25",
+        "close": "154.56"
     },
     {
         "symbol": "CVX",
@@ -170,9 +175,9 @@
         "close": "155.23"
     },
     {
-        "symbol": "CVX",
-        "date": "05/18",
-        "close": "154.01"
+        "symbol": "CSCO",
+        "date": "05/25",
+        "close": "49.03"
     },
     {
         "symbol": "CSCO",
@@ -195,9 +200,9 @@
         "close": "49.13"
     },
     {
-        "symbol": "CSCO",
-        "date": "05/18",
-        "close": "48.2"
+        "symbol": "KO",
+        "date": "05/25",
+        "close": "60.41"
     },
     {
         "symbol": "KO",
@@ -220,9 +225,9 @@
         "close": "62.83"
     },
     {
-        "symbol": "KO",
-        "date": "05/18",
-        "close": "62.8"
+        "symbol": "DIS",
+        "date": "05/25",
+        "close": "88.14"
     },
     {
         "symbol": "DIS",
@@ -245,9 +250,9 @@
         "close": "91.35"
     },
     {
-        "symbol": "DIS",
-        "date": "05/18",
-        "close": "93.76"
+        "symbol": "DOW",
+        "date": "05/25",
+        "close": "50.37"
     },
     {
         "symbol": "DOW",
@@ -270,9 +275,9 @@
         "close": "51.95"
     },
     {
-        "symbol": "DOW",
-        "date": "05/18",
-        "close": "51.87"
+        "symbol": "GS",
+        "date": "05/25",
+        "close": "323.88"
     },
     {
         "symbol": "GS",
@@ -295,9 +300,9 @@
         "close": "326.15"
     },
     {
-        "symbol": "GS",
-        "date": "05/18",
-        "close": "329.58"
+        "symbol": "HD",
+        "date": "05/25",
+        "close": "286.75"
     },
     {
         "symbol": "HD",
@@ -320,9 +325,9 @@
         "close": "290.88"
     },
     {
-        "symbol": "HD",
-        "date": "05/18",
-        "close": "295.16"
+        "symbol": "HON",
+        "date": "05/25",
+        "close": "192.27"
     },
     {
         "symbol": "HON",
@@ -345,9 +350,9 @@
         "close": "197.35"
     },
     {
-        "symbol": "HON",
-        "date": "05/18",
-        "close": "198.25"
+        "symbol": "IBM",
+        "date": "05/25",
+        "close": "126.76"
     },
     {
         "symbol": "IBM",
@@ -370,9 +375,9 @@
         "close": "127.26"
     },
     {
-        "symbol": "IBM",
-        "date": "05/18",
-        "close": "126.15"
+        "symbol": "INTC",
+        "date": "05/25",
+        "close": "27.4"
     },
     {
         "symbol": "INTC",
@@ -395,9 +400,9 @@
         "close": "29.93"
     },
     {
-        "symbol": "INTC",
-        "date": "05/18",
-        "close": "29.68"
+        "symbol": "JNJ",
+        "date": "05/25",
+        "close": "154.41"
     },
     {
         "symbol": "JNJ",
@@ -420,9 +425,9 @@
         "close": "158.91"
     },
     {
-        "symbol": "JNJ",
-        "date": "05/18",
-        "close": "158.48"
+        "symbol": "JPM",
+        "date": "05/25",
+        "close": "135.67"
     },
     {
         "symbol": "JPM",
@@ -445,9 +450,9 @@
         "close": "139.18"
     },
     {
-        "symbol": "JPM",
-        "date": "05/18",
-        "close": "139.5"
+        "symbol": "MCD",
+        "date": "05/25",
+        "close": "285.52"
     },
     {
         "symbol": "MCD",
@@ -470,9 +475,9 @@
         "close": "295.55"
     },
     {
-        "symbol": "MCD",
-        "date": "05/18",
-        "close": "294.05"
+        "symbol": "MRK",
+        "date": "05/25",
+        "close": "112.3"
     },
     {
         "symbol": "MRK",
@@ -495,9 +500,9 @@
         "close": "115.49"
     },
     {
-        "symbol": "MRK",
-        "date": "05/18",
-        "close": "114.0"
+        "symbol": "MSFT",
+        "date": "05/25",
+        "close": "325.92"
     },
     {
         "symbol": "MSFT",
@@ -520,9 +525,9 @@
         "close": "318.34"
     },
     {
-        "symbol": "MSFT",
-        "date": "05/18",
-        "close": "318.52"
+        "symbol": "NKE",
+        "date": "05/25",
+        "close": "107.48"
     },
     {
         "symbol": "NKE",
@@ -545,9 +550,9 @@
         "close": "114.76"
     },
     {
-        "symbol": "NKE",
-        "date": "05/18",
-        "close": "118.87"
+        "symbol": "PG",
+        "date": "05/25",
+        "close": "145.39"
     },
     {
         "symbol": "PG",
@@ -570,9 +575,9 @@
         "close": "153.17"
     },
     {
-        "symbol": "PG",
-        "date": "05/18",
-        "close": "152.53"
+        "symbol": "CRM",
+        "date": "05/25",
+        "close": "209.91"
     },
     {
         "symbol": "CRM",
@@ -595,9 +600,9 @@
         "close": "210.36"
     },
     {
-        "symbol": "CRM",
-        "date": "05/18",
-        "close": "213.32"
+        "symbol": "TRV",
+        "date": "05/25",
+        "close": "173.67"
     },
     {
         "symbol": "TRV",
@@ -620,9 +625,9 @@
         "close": "183.72"
     },
     {
-        "symbol": "TRV",
-        "date": "05/18",
-        "close": "183.34"
+        "symbol": "UNH",
+        "date": "05/25",
+        "close": "477.7"
     },
     {
         "symbol": "UNH",
@@ -645,9 +650,9 @@
         "close": "478.82"
     },
     {
-        "symbol": "UNH",
-        "date": "05/18",
-        "close": "479.23"
+        "symbol": "VZ",
+        "date": "05/25",
+        "close": "34.82"
     },
     {
         "symbol": "VZ",
@@ -670,9 +675,9 @@
         "close": "36.05"
     },
     {
-        "symbol": "VZ",
-        "date": "05/18",
-        "close": "36.13"
+        "symbol": "V",
+        "date": "05/25",
+        "close": "223.38"
     },
     {
         "symbol": "V",
@@ -695,9 +700,9 @@
         "close": "233.31"
     },
     {
-        "symbol": "V",
-        "date": "05/18",
-        "close": "233.6"
+        "symbol": "WBA",
+        "date": "05/25",
+        "close": "29.97"
     },
     {
         "symbol": "WBA",
@@ -720,9 +725,9 @@
         "close": "31.28"
     },
     {
-        "symbol": "WBA",
-        "date": "05/18",
-        "close": "31.46"
+        "symbol": "WMT",
+        "date": "05/25",
+        "close": "146.16"
     },
     {
         "symbol": "WMT",
@@ -743,10 +748,5 @@
         "symbol": "WMT",
         "date": "05/19",
         "close": "149.91"
-    },
-    {
-        "symbol": "WMT",
-        "date": "05/18",
-        "close": "151.47"
     }
 ]
