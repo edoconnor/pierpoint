@@ -18,7 +18,7 @@ for i in range(0, len(symbols), 5):
     symbols_batch = symbols[i:i+5]
     for symbol in symbols_batch:
         params = {
-            'function': 'TIME_SERIES_DAILY_ADJUSTED',
+            'function': 'TIME_SERIES_DAILY',
             'symbol': symbol,
             'apikey': creds.api_key
         }
@@ -26,6 +26,8 @@ for i in range(0, len(symbols), 5):
         response = requests.get(endpoint, params=params)
 
         data = response.json()
+
+        print(data)
 
         daily_data = data['Time Series (Daily)']
 
