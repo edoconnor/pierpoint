@@ -27,12 +27,10 @@ for i in range(0, len(symbols), 5):
 
         data = response.json()
 
-        print(data)
-
         daily_data = data['Time Series (Daily)']
 
-        for date, daily_data in list(daily_data.items())[:5]:
-            close = daily_data['4. close']
+        for date, daily_entry in list(daily_data.items())[:5]:
+            close = daily_entry['4. close']
             results.append({'symbol': symbol, 'date': date, 'close': close})
     time.sleep(60)
 
