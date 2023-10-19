@@ -1,8 +1,13 @@
 [
     {
         "symbol": "MMM",
+        "date": "10/19",
+        "close": "87.0300"
+    },
+    {
+        "symbol": "MMM",
         "date": "10/18",
-        "close": "88.3900"
+        "close": "88.4000"
     },
     {
         "symbol": "MMM",
@@ -20,14 +25,14 @@
         "close": "88.6800"
     },
     {
-        "symbol": "MMM",
-        "date": "10/12",
-        "close": "89.0200"
+        "symbol": "AXP",
+        "date": "10/19",
+        "close": "149.5500"
     },
     {
         "symbol": "AXP",
         "date": "10/18",
-        "close": "151.5200"
+        "close": "151.5300"
     },
     {
         "symbol": "AXP",
@@ -45,9 +50,9 @@
         "close": "151.1000"
     },
     {
-        "symbol": "AXP",
-        "date": "10/12",
-        "close": "151.2800"
+        "symbol": "AMGN",
+        "date": "10/19",
+        "close": "280.6000"
     },
     {
         "symbol": "AMGN",
@@ -70,9 +75,9 @@
         "close": "284.1000"
     },
     {
-        "symbol": "AMGN",
-        "date": "10/12",
-        "close": "285.0400"
+        "symbol": "AAPL",
+        "date": "10/19",
+        "close": "175.4600"
     },
     {
         "symbol": "AAPL",
@@ -95,14 +100,14 @@
         "close": "178.8500"
     },
     {
-        "symbol": "AAPL",
-        "date": "10/12",
-        "close": "180.7100"
+        "symbol": "BA",
+        "date": "10/19",
+        "close": "182.6700"
     },
     {
         "symbol": "BA",
         "date": "10/18",
-        "close": "185.6200"
+        "close": "185.6900"
     },
     {
         "symbol": "BA",
@@ -120,14 +125,14 @@
         "close": "184.9100"
     },
     {
-        "symbol": "BA",
-        "date": "10/12",
-        "close": "191.3000"
+        "symbol": "CAT",
+        "date": "10/19",
+        "close": "252.8000"
     },
     {
         "symbol": "CAT",
         "date": "10/18",
-        "close": "259.1600"
+        "close": "259.2200"
     },
     {
         "symbol": "CAT",
@@ -145,9 +150,9 @@
         "close": "267.9400"
     },
     {
-        "symbol": "CAT",
-        "date": "10/12",
-        "close": "269.6100"
+        "symbol": "CVX",
+        "date": "10/19",
+        "close": "169.0800"
     },
     {
         "symbol": "CVX",
@@ -170,9 +175,9 @@
         "close": "164.0600"
     },
     {
-        "symbol": "CVX",
-        "date": "10/12",
-        "close": "161.2300"
+        "symbol": "CSCO",
+        "date": "10/19",
+        "close": "53.3200"
     },
     {
         "symbol": "CSCO",
@@ -195,9 +200,9 @@
         "close": "53.7700"
     },
     {
-        "symbol": "CSCO",
-        "date": "10/12",
-        "close": "53.8500"
+        "symbol": "KO",
+        "date": "10/19",
+        "close": "54.3300"
     },
     {
         "symbol": "KO",
@@ -220,9 +225,9 @@
         "close": "52.8900"
     },
     {
-        "symbol": "KO",
-        "date": "10/12",
-        "close": "52.8100"
+        "symbol": "DIS",
+        "date": "10/19",
+        "close": "83.2100"
     },
     {
         "symbol": "DIS",
@@ -245,14 +250,14 @@
         "close": "84.3500"
     },
     {
-        "symbol": "DIS",
-        "date": "10/12",
-        "close": "84.3500"
+        "symbol": "DOW",
+        "date": "10/19",
+        "close": "49.4100"
     },
     {
         "symbol": "DOW",
         "date": "10/18",
-        "close": "50.0600"
+        "close": "50.0800"
     },
     {
         "symbol": "DOW",
@@ -270,14 +275,14 @@
         "close": "49.7300"
     },
     {
-        "symbol": "DOW",
-        "date": "10/12",
-        "close": "50.2500"
+        "symbol": "GS",
+        "date": "10/19",
+        "close": "299.0600"
     },
     {
         "symbol": "GS",
         "date": "10/18",
-        "close": "302.0700"
+        "close": "301.9600"
     },
     {
         "symbol": "GS",
@@ -295,14 +300,14 @@
         "close": "309.3000"
     },
     {
-        "symbol": "GS",
-        "date": "10/12",
-        "close": "309.8500"
+        "symbol": "HD",
+        "date": "10/19",
+        "close": "286.7200"
     },
     {
         "symbol": "HD",
         "date": "10/18",
-        "close": "290.1100"
+        "close": "290.2400"
     },
     {
         "symbol": "HD",
@@ -320,9 +325,9 @@
         "close": "291.9200"
     },
     {
-        "symbol": "HD",
-        "date": "10/12",
-        "close": "293.0200"
+        "symbol": "HON",
+        "date": "10/19",
+        "close": "182.2700"
     },
     {
         "symbol": "HON",
@@ -345,14 +350,14 @@
         "close": "183.5600"
     },
     {
-        "symbol": "HON",
-        "date": "10/12",
-        "close": "183.9400"
+        "symbol": "IBM",
+        "date": "10/19",
+        "close": "138.0100"
     },
     {
         "symbol": "IBM",
         "date": "10/18",
-        "close": "140.0000"
+        "close": "139.9700"
     },
     {
         "symbol": "IBM",
@@ -370,9 +375,9 @@
         "close": "138.4600"
     },
     {
-        "symbol": "IBM",
-        "date": "10/12",
-        "close": "141.2400"
+        "symbol": "INTC",
+        "date": "10/19",
+        "close": "35.6700"
     },
     {
         "symbol": "INTC",
@@ -395,14 +400,14 @@
         "close": "35.9700"
     },
     {
-        "symbol": "INTC",
-        "date": "10/12",
-        "close": "36.8400"
+        "symbol": "JNJ",
+        "date": "10/19",
+        "close": "152.3000"
     },
     {
         "symbol": "JNJ",
         "date": "10/18",
-        "close": "152.7200"
+        "close": "152.7300"
     },
     {
         "symbol": "JNJ",
@@ -420,14 +425,14 @@
         "close": "156.8500"
     },
     {
-        "symbol": "JNJ",
-        "date": "10/12",
-        "close": "156.3300"
+        "symbol": "JPM",
+        "date": "10/19",
+        "close": "145.1800"
     },
     {
         "symbol": "JPM",
         "date": "10/18",
-        "close": "145.9000"
+        "close": "145.9100"
     },
     {
         "symbol": "JPM",
@@ -445,14 +450,14 @@
         "close": "148.0000"
     },
     {
-        "symbol": "JPM",
-        "date": "10/12",
-        "close": "145.8100"
+        "symbol": "MCD",
+        "date": "10/19",
+        "close": "258.3500"
     },
     {
         "symbol": "MCD",
         "date": "10/18",
-        "close": "256.0000"
+        "close": "256.0300"
     },
     {
         "symbol": "MCD",
@@ -470,9 +475,9 @@
         "close": "248.3100"
     },
     {
-        "symbol": "MCD",
-        "date": "10/12",
-        "close": "246.1900"
+        "symbol": "MRK",
+        "date": "10/19",
+        "close": "100.4300"
     },
     {
         "symbol": "MRK",
@@ -495,9 +500,9 @@
         "close": "104.0100"
     },
     {
-        "symbol": "MRK",
-        "date": "10/12",
-        "close": "103.5900"
+        "symbol": "MSFT",
+        "date": "10/19",
+        "close": "331.3200"
     },
     {
         "symbol": "MSFT",
@@ -520,14 +525,14 @@
         "close": "327.7300"
     },
     {
-        "symbol": "MSFT",
-        "date": "10/12",
-        "close": "331.1600"
+        "symbol": "NKE",
+        "date": "10/19",
+        "close": "103.0500"
     },
     {
         "symbol": "NKE",
         "date": "10/18",
-        "close": "103.7900"
+        "close": "103.7700"
     },
     {
         "symbol": "NKE",
@@ -545,14 +550,14 @@
         "close": "99.9100"
     },
     {
-        "symbol": "NKE",
-        "date": "10/12",
-        "close": "99.2500"
+        "symbol": "PG",
+        "date": "10/19",
+        "close": "148.1500"
     },
     {
         "symbol": "PG",
         "date": "10/18",
-        "close": "149.9800"
+        "close": "150.0300"
     },
     {
         "symbol": "PG",
@@ -570,14 +575,14 @@
         "close": "144.6900"
     },
     {
-        "symbol": "PG",
-        "date": "10/12",
-        "close": "143.3200"
+        "symbol": "CRM",
+        "date": "10/19",
+        "close": "208.3100"
     },
     {
         "symbol": "CRM",
         "date": "10/18",
-        "close": "204.9400"
+        "close": "204.8300"
     },
     {
         "symbol": "CRM",
@@ -595,14 +600,14 @@
         "close": "204.5900"
     },
     {
-        "symbol": "CRM",
-        "date": "10/12",
-        "close": "205.6800"
+        "symbol": "TRV",
+        "date": "10/19",
+        "close": "163.9100"
     },
     {
         "symbol": "TRV",
         "date": "10/18",
-        "close": "168.0300"
+        "close": "168.1100"
     },
     {
         "symbol": "TRV",
@@ -620,14 +625,14 @@
         "close": "164.2100"
     },
     {
-        "symbol": "TRV",
-        "date": "10/12",
-        "close": "160.7300"
+        "symbol": "UNH",
+        "date": "10/19",
+        "close": "531.5000"
     },
     {
         "symbol": "UNH",
         "date": "10/18",
-        "close": "536.1150"
+        "close": "536.0600"
     },
     {
         "symbol": "UNH",
@@ -645,14 +650,14 @@
         "close": "539.4000"
     },
     {
-        "symbol": "UNH",
-        "date": "10/12",
-        "close": "525.5400"
+        "symbol": "VZ",
+        "date": "10/19",
+        "close": "31.5800"
     },
     {
         "symbol": "VZ",
         "date": "10/18",
-        "close": "31.0400"
+        "close": "31.0500"
     },
     {
         "symbol": "VZ",
@@ -670,14 +675,14 @@
         "close": "30.6700"
     },
     {
-        "symbol": "VZ",
-        "date": "10/12",
-        "close": "30.9100"
+        "symbol": "V",
+        "date": "10/19",
+        "close": "233.5500"
     },
     {
         "symbol": "V",
         "date": "10/18",
-        "close": "237.5100"
+        "close": "237.4700"
     },
     {
         "symbol": "V",
@@ -695,9 +700,9 @@
         "close": "237.6700"
     },
     {
-        "symbol": "V",
-        "date": "10/12",
-        "close": "236.7800"
+        "symbol": "WBA",
+        "date": "10/19",
+        "close": "20.9600"
     },
     {
         "symbol": "WBA",
@@ -720,14 +725,14 @@
         "close": "23.2500"
     },
     {
-        "symbol": "WBA",
-        "date": "10/12",
-        "close": "24.1900"
+        "symbol": "WMT",
+        "date": "10/19",
+        "close": "160.7400"
     },
     {
         "symbol": "WMT",
         "date": "10/18",
-        "close": "161.5200"
+        "close": "161.5400"
     },
     {
         "symbol": "WMT",
@@ -743,10 +748,5 @@
         "symbol": "WMT",
         "date": "10/13",
         "close": "159.8300"
-    },
-    {
-        "symbol": "WMT",
-        "date": "10/12",
-        "close": "158.9500"
     }
 ]
