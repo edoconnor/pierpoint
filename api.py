@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import csv
 import json
-import creds  # Make sure this file contains your Marketstack API key
+import creds 
 
 endpoint = 'https://api.marketstack.com/v1/eod'
 
@@ -21,7 +21,7 @@ for symbol in symbols:
         'access_key': creds.api_key,
         'symbols': symbol,
         'sort': 'DESC',
-        'limit': 1  # Assuming we only want the latest closing price
+        'limit': 5  # Get the last 5 days of EOD data
     }
 
     response = requests.get(endpoint, params=params)
@@ -30,18 +30,19 @@ for symbol in symbols:
         data = response.json()
         if data['data']:
             # Marketstack API wraps the data in a 'data' key
-            latest_data = data['data'][0]  # Get the latest data point
-            close = latest_data['close']
-            results.append({
-                'symbol': symbol,
-                'date': latest_data['date'],
-                'close': close
-            })
+            for daily_data in data['data']:
+                close = daily_data['close']
+                results.append({
+                    'symbol': symbol,
+                    'date': daily_data['date'],
+                    'close': close
+                })
         else:
             print(f"No data available for symbol {symbol}")
     else:
         print(f"Error fetching data for symbol {symbol}: {response.status_code} - {response.text}")
 
+# Convert the results to a DataFrame
 df = pd.DataFrame(results)
 
 # Convert the date to the desired format
@@ -50,7 +51,7 @@ df['date'] = pd.to_datetime(df['date']).dt.strftime('%m/%d')
 # Save to CSV
 df.to_csv('dow.csv', index=False)
 
-# Function to convert CSV to JSON
+# Convert CSV to JSON
 def csv_to_json(csvFilePath, jsonFilePath):
     jsonArray = []
 
